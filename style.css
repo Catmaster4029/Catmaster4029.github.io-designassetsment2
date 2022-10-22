@@ -3,97 +3,118 @@
 
 
 body {
-    margin: 0;
-    margin-top: 50px;
-    font-family: sans-serif;
-  }
-  
-  header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    line-height: 50px;
-    background-color: #eee;
-  }
-  
-  header * {
-    display: inline;
-    height: 50px;
-  }
-  
-  header ul {
-    padding: 0;
-  }
-  
-  header li {
-    margin-left: 20px;
-  }
-  
-  section {
-    height: 100vh;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  
-    background-size: cover; 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-  
-  #hero .profile-img {
-    width: 300px;
-    border-radius: 50%;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 50px;
-  }
-  
-  #hero h1 {
-    font-size: 3em;
-  }
-  
-  section h2 {
-    font-size: 2.5em;
-  }
-  
-  section h3 {
-    font-size: 1.5em;
-  }
-  
-  header a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  #start {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
-  }
-  
-  #pizza {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
-  }
-  
-  #pasta {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
-  }
+  margin: 0;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
 
-  #tiramisu {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
-  }
-  
-  #cannelloni {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
-  }
-  
-  #polenta {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
-  }
-  
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: #eee;
+}
+
+header * {
+  display: inline;
+  height: 50px;
+}
+
+header ul {
+  padding: 0;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+section {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
+
+section h2 {
+  font-size: 2.5em;
+}
+
+section h3 {
+  font-size: 1.5em;
+}
+
+header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#start {
+  background-image: url('https://a.storyblok.com/f/53624/4096x1280/4358be1064/stock-photo-landscape-with-atrani-town-at-famous-amalfi-coast-italy-1436187389.jpg');
+}
+
+#pizza {
+  background-image:  url('https://cdn.tasteatlas.com/images/dishes/966281fa045045cdac9d3a1830b08b8f.jpg');
+  height: 700px
+}
+
+#pizza2 {
+  height: 200px
+}
+
+#pasta {
+  background-image: url('https://cdn.mutti-parma.com/app/uploads/sites/12/2020/07/j3t2bzga.jpeg-free-to-use.jpg');
+  height: 700px
+}
+
+#pasta2 {
+  height: 200px
+}
+
+
+#tiramisu {
+  background-image: url('https://www.cucchiaio.it/content/cucchiaio/it/ricette/2009/12/ricetta-tiramisu/_jcr_content/header-par/image_single.img.jpg/1448965006057.jpg');
+  height: 700px
+}
+
+#tiramisu2 {
+  height: 200px
+}
+
+#cannelloni {
+  background-image: url('https://www.lospicchiodaglio.it/img/ricette/cannellonicarne.jpg');
+  height: 700px
+}
+
+#cannelloni2 {
+  height: 200px
+}
+
+p {
+  margin: 100px;
+}
+
+h1 {
+  background: white;
+  background-size: 500px;
+}
+
+h1 {
+  display: table; 
+  margin: 0px auto 0px auto;
+  padding:15px;font-size:50px;background-color:#ffffff;color:#323232;
+}
